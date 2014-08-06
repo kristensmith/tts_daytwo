@@ -1,0 +1,19 @@
+<h1>Printing out an array</h1>
+<p>Find me in app/views/welcome/four.html.erb</p>
+
+<%@array.each do|value|%>
+<%=
+value
+%>
+<br>
+<%
+end
+%>
+
+numbers = [10, 20, 30, 40]
+
+ numbers.each_with_index do |num, index|
+
+  numbers[index] = num + 7
+
+ end

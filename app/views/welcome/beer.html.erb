@@ -1,0 +1,18 @@
+<h1>99 Bottles of beer</h1>
+<p>Iterate from 0-99, output “99 bottles of beer on the wall 99 bottles of beer take one down and pass one around 98 bottles of beer on the wall”</p>
+<%
+
+i = 99
+	output = i "bottles of beer on the wall" "bottles of beer, take 1 down and pass it around"
+
+until i = 0 [do]
+	
+	output =  "take 1 down and pass it around" i "bottles of beer on the wall"
+end
+
+%>
+Currently at <%=i%><br>
+
+end
+
+%>
