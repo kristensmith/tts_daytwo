@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static/test'
+
   resources :blogs
 
   get 'welcome/about'
